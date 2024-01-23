@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.individualCardContainer {
+  list-style-type: none;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.similarProductsImage {
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+}
+.titleHeading {
+  font-size: 24px;
+}
+.styleHeading {
+  font-size: 18px;
+  color: #475569;
+}
+.priceAndRating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.colorChange {
+  color: white;
+}
+.backgroundBlue {
+  height: 25px;
+  width: 50px;
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
