@@ -145,7 +145,7 @@ class ProductItemDetails extends Component {
                 <BsDashSquare onClick={this.decrease} className="minusButton" />
               </button>
               <p className="count">{count}</p>
-              <button type="button" data-testid="plus">
+              <button data-testid="plus">
                 <BsPlusSquare onClick={this.increase} className="minusButton" />
               </button>
             </div>
