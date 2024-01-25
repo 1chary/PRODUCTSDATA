@@ -118,9 +118,9 @@ class ProductItemDetails extends Component {
             <p className="amount">Rs {price}/- </p>
             <div className="buttonAndReviewContainer">
               <div className="buttonContainer">
-                <button type="button" className="ratingButton">
+                <p type="button" className="ratingButton">
                   {rating}
-                </button>
+                </p>
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/star-img.png"
                   alt="star"
@@ -141,13 +141,13 @@ class ProductItemDetails extends Component {
             </p>
             <hr className="line" />
             <div className="productIncrease">
-              <div data-testid="minus">
+              <button data-testid="minus">
                 <BsDashSquare onClick={this.decrease} className="minusButton" />
-              </div>
+              </button>
               <p className="count">{count}</p>
-              <div type="button" data-testid="plus">
+              <button type="button" data-testid="plus">
                 <BsPlusSquare onClick={this.increase} className="minusButton" />
-              </div>
+              </button>
             </div>
             <div className="addToCartContainer">
               <button type="button" className="cartButton">
